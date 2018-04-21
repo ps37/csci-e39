@@ -1,39 +1,39 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import autobind from 'class-autobind'
-
+import MemberList from './components/member-list/member-list.component.jsx'
 class Chat extends React.Component {
 
 	constructor() {
 		super(...arguments)
 		autobind(this)
-		this.state = {currentText: ``}
+		this.state = { currentText: `` }
 	}
 
 	onType(e) {
-		const {chat} = this.props.actions
-		const {currentText: prevText} = this.state
+		const { chat } = this.props.actions
+		const { currentText: prevText } = this.state
 		const currentText = e.target.value
 
 		if (!currentText.length) chat.stopTyping()
 		if (currentText.length === 1 && !prevText.length) chat.startTyping()
 
-		this.setState({currentText})
+		this.setState({ currentText })
 	}
 
 	onSend(e) {
 		if (e.type === `keyup` && e.key !== `Enter`) return
 
-		const {chat} = this.props.actions
-		const {currentText} = this.state
+		const { chat } = this.props.actions
+		const { currentText } = this.state
 		if (!currentText.length) return
 
 		chat.send(currentText)
-		this.setState({currentText: ``})
+		this.setState({ currentText: `` })
 	}
 
 	getTypingMessage() {
-		const {typing} = this.props.chat
+		const { typing } = this.props.chat
 
 		switch (typing.length) {
 			case 0: return null
@@ -46,22 +46,19 @@ class Chat extends React.Component {
 	}
 
 	render() {
-		const {classroom, chat, actions} = this.props
-		const {currentText} = this.state
+		const { classroom, chat, actions } = this.props
+		const { currentText } = this.state
 
 		return <div>
 			<h1>Chatroom</h1>
 
 			<h2>Members</h2>
-			<ul>
-				{classroom.students.map(({id, name}) =>
-					<li key={id}><span>{name}</span></li>
-				)}
-			</ul>
+			<MemberList classroom={classroom} />
+
 
 			<h2>Messages</h2>
 			<ul>
-				{chat.messages.map(({id, student, text, createdAt}) =>
+				{chat.messages.map(({ id, student, text, createdAt }) =>
 					<li key={id}>
 						<label>{student.name} at {createdAt.toISOString()}</label>
 						<p>{text}</p>
