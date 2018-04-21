@@ -4,6 +4,7 @@ import autobind from 'class-autobind'
 
 import ChatroomStatus from "./components/chatroom-status/chatroom-status.component.jsx.js";
 import MemberList from './components/member-list/member-list.component.jsx'
+import AppHeader from './components/app-header/app-header.component.jsx';
 
 class Chat extends React.Component {
 	constructor() {
@@ -57,8 +58,8 @@ class Chat extends React.Component {
 		const { currentText } = this.state
 
 		return <div>
-			<h1>Chatroom</h1>
 
+			<AppHeader />
 			<h2>Members</h2>
 			<MemberList classroom={classroom} />
 
