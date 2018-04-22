@@ -1,0 +1,679 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'canvas' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/marysun/csci-e39 weekend/csci-e39/package.json
+6 warn package.json csci-e39@1.0.0 No repository field.
+7 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-cli/package.json
+8 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-core/package.json
+9 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-loader/package.json
+10 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-plugin-transform-object-rest-spread/package.json
+11 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-plugin-transform-react-jsx/package.json
+12 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/babel-preset-env/package.json
+13 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/bookshelf/package.json
+14 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/class-autobind/package.json
+15 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/cloudinary/package.json
+16 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/concurrently/package.json
+17 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/debug/package.json
+18 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/kcors/package.json
+19 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/knex/package.json
+20 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/koa/package.json
+21 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/koa-logger/package.json
+22 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/koa-route/package.json
+23 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/koa-static/package.json
+24 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/koa-views/package.json
+25 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/livereload/package.json
+26 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/nib/package.json
+27 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/node-sass/package.json
+28 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/nodemon/package.json
+29 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/pg/package.json
+30 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/prop-types/package.json
+31 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/pug/package.json
+32 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/react/package.json
+33 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/react-dom/package.json
+34 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/socket.io/package.json
+35 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/sqlite3/package.json
+36 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/supports-color/package.json
+37 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/webpack/package.json
+38 verbose installManyTop reading scoped package data from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/xstream/package.json
+39 info package.json knex@0.13.0 No README data
+40 info package.json livereload@0.6.3 No license field.
+41 verbose readDependencies loading dependencies from /Users/marysun/csci-e39 weekend/csci-e39/package.json
+42 silly cache add args [ 'canvas', null ]
+43 verbose cache add spec canvas
+44 silly cache add parsed spec { raw: 'canvas',
+44 silly cache add   scope: null,
+44 silly cache add   name: 'canvas',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: '*',
+44 silly cache add   type: 'range' }
+45 silly addNamed canvas@*
+46 verbose addNamed "*" is a valid semver range for canvas
+47 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+48 silly mapToRegistry name canvas
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/canvas
+52 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+53 verbose request uri https://registry.npmjs.org/canvas
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 01:43:25
+56 verbose request id 9014fdbf874e6c72
+57 http request GET https://registry.npmjs.org/canvas
+58 http 200 https://registry.npmjs.org/canvas
+59 silly get cb [ 200,
+59 silly get   { 'content-type': 'application/json; charset=UTF-8',
+59 silly get     server: 'UploadServer',
+59 silly get     'cache-control': 'max-age=300',
+59 silly get     'last-modified': 'Thu, 22 Mar 2018 19:54:56 GMT',
+59 silly get     etag: '"5ab40a10-31b79"',
+59 silly get     'x-npm-region': 'US-East',
+59 silly get     'content-encoding': 'gzip',
+59 silly get     'content-length': '22790',
+59 silly get     'accept-ranges': 'bytes',
+59 silly get     date: 'Sun, 22 Apr 2018 05:43:25 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     age: '5654',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-bos8223-BOS',
+59 silly get     'x-cache': 'HIT',
+59 silly get     'x-cache-hits': '1',
+59 silly get     'x-timer': 'S1524375805.378477,VS0,VE1',
+59 silly get     vary: 'Accept-Encoding, Accept' } ]
+60 verbose get saving canvas to /Users/marysun/.npm/registry.npmjs.org/canvas/.cache.json
+61 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+62 silly addNameRange versions [ 'canvas',
+62 silly addNameRange   [ '0.0.1',
+62 silly addNameRange     '0.0.2',
+62 silly addNameRange     '0.0.3',
+62 silly addNameRange     '0.0.4',
+62 silly addNameRange     '0.0.5',
+62 silly addNameRange     '0.0.6',
+62 silly addNameRange     '0.0.7',
+62 silly addNameRange     '0.0.8',
+62 silly addNameRange     '0.1.0',
+62 silly addNameRange     '0.2.0',
+62 silly addNameRange     '0.2.1',
+62 silly addNameRange     '0.3.0',
+62 silly addNameRange     '0.3.1',
+62 silly addNameRange     '0.3.2',
+62 silly addNameRange     '0.3.3',
+62 silly addNameRange     '0.4.0',
+62 silly addNameRange     '0.4.1',
+62 silly addNameRange     '0.4.2',
+62 silly addNameRange     '0.4.3',
+62 silly addNameRange     '0.5.0',
+62 silly addNameRange     '0.5.1',
+62 silly addNameRange     '0.5.2',
+62 silly addNameRange     '0.5.3',
+62 silly addNameRange     '0.5.4',
+62 silly addNameRange     '0.6.0',
+62 silly addNameRange     '0.7.0',
+62 silly addNameRange     '0.7.1',
+62 silly addNameRange     '0.7.2',
+62 silly addNameRange     '0.7.3',
+62 silly addNameRange     '0.8.0',
+62 silly addNameRange     '0.8.1',
+62 silly addNameRange     '0.8.2',
+62 silly addNameRange     '0.8.3',
+62 silly addNameRange     '0.9.0',
+62 silly addNameRange     '0.10.0',
+62 silly addNameRange     '0.10.1',
+62 silly addNameRange     '0.10.2',
+62 silly addNameRange     '0.10.3',
+62 silly addNameRange     '0.11.0',
+62 silly addNameRange     '0.11.1',
+62 silly addNameRange     '0.11.2',
+62 silly addNameRange     '0.11.3',
+62 silly addNameRange     '0.12.0',
+62 silly addNameRange     '0.12.1',
+62 silly addNameRange     '0.13.0',
+62 silly addNameRange     '0.13.1',
+62 silly addNameRange     '1.0.0',
+62 silly addNameRange     '1.0.1',
+62 silly addNameRange     '1.0.2',
+62 silly addNameRange     '1.0.3',
+62 silly addNameRange     '1.0.4',
+62 silly addNameRange     '1.1.0',
+62 silly addNameRange     '1.1.1',
+62 silly addNameRange     '1.1.2',
+62 silly addNameRange     '1.1.3',
+62 silly addNameRange     '1.1.4',
+62 silly addNameRange     '1.1.5',
+62 silly addNameRange     '1.1.6',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.2.1',
+62 silly addNameRange     '1.2.2',
+62 silly addNameRange     '1.2.3',
+62 silly addNameRange     '1.2.4',
+62 silly addNameRange     '1.2.5',
+62 silly addNameRange     '1.2.6',
+62 silly addNameRange     '1.2.7',
+62 silly addNameRange     '1.2.8',
+62 silly addNameRange     '1.2.9',
+62 silly addNameRange     '1.2.10',
+62 silly addNameRange     '1.2.11',
+62 silly addNameRange     '1.3.0',
+62 silly addNameRange     '1.3.1',
+62 silly addNameRange     '1.3.2',
+62 silly addNameRange     '1.3.3',
+62 silly addNameRange     '1.3.4',
+62 silly addNameRange     '1.3.5',
+62 silly addNameRange     '1.3.6',
+62 silly addNameRange     '1.3.7',
+62 silly addNameRange     '1.3.8',
+62 silly addNameRange     '1.3.9',
+62 silly addNameRange     '1.3.10',
+62 silly addNameRange     '1.3.11',
+62 silly addNameRange     '1.3.12',
+62 silly addNameRange     '1.3.13',
+62 silly addNameRange     '1.3.14',
+62 silly addNameRange     '1.3.15',
+62 silly addNameRange     '1.3.16',
+62 silly addNameRange     '1.4.0',
+62 silly addNameRange     '1.5.0',
+62 silly addNameRange     '1.6.0',
+62 silly addNameRange     '1.6.1',
+62 silly addNameRange     '1.6.2',
+62 silly addNameRange     '1.6.3',
+62 silly addNameRange     '1.6.4',
+62 silly addNameRange     '1.6.5',
+62 silly addNameRange     '2.0.0-alpha.1',
+62 silly addNameRange     '2.0.0-alpha.2',
+62 silly addNameRange     '1.6.6',
+62 silly addNameRange     '2.0.0-alpha.3',
+62 silly addNameRange     '2.0.0-alpha.4',
+62 silly addNameRange     '2.0.0-alpha.5',
+62 silly addNameRange     '1.6.7',
+62 silly addNameRange     '2.0.0-alpha.6',
+62 silly addNameRange     '2.0.0-alpha.7',
+62 silly addNameRange     '2.0.0-alpha.8',
+62 silly addNameRange     '1.6.8',
+62 silly addNameRange     '1.6.9',
+62 silly addNameRange     '2.0.0-alpha.9',
+62 silly addNameRange     '2.0.0-alpha.10',
+62 silly addNameRange     '2.0.0-alpha.11',
+62 silly addNameRange     '2.0.0-alpha.12',
+62 silly addNameRange     '1.6.10' ] ]
+63 silly addNamed canvas@1.6.10
+64 verbose addNamed "1.6.10" is a plain semver version for canvas
+65 silly mapToRegistry name canvas
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/canvas
+69 verbose addRemoteTarball https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz not in flight; adding
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz',
+70 verbose addRemoteTarball   'aa938354642e7d61479ae5a76373b3233d7bbac8' ]
+71 info retry fetch attempt 1 at 01:43:25
+72 info attempt registry request try #1 at 01:43:25
+73 http fetch GET https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz
+74 http fetch 200 https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz
+75 silly fetchAndShaCheck shasum aa938354642e7d61479ae5a76373b3233d7bbac8
+76 verbose addTmpTarball /var/folders/ny/cmsdksp11_b91q5wq9gsdwdc0000gn/T/npm-26633-0ace1f1f/registry.npmjs.org/canvas/-/canvas-1.6.10.tgz not in flight; adding
+77 verbose addTmpTarball already have metadata; skipping unpack for canvas@1.6.10
+78 silly cache afterAdd canvas@1.6.10
+79 verbose afterAdd /Users/marysun/.npm/canvas/1.6.10/package/package.json not in flight; writing
+80 verbose afterAdd /Users/marysun/.npm/canvas/1.6.10/package/package.json written
+81 silly install resolved [ { name: 'canvas',
+81 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+81 silly install resolved     version: '1.6.10',
+81 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+81 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+81 silly install resolved     keywords:
+81 silly install resolved      [ 'canvas',
+81 silly install resolved        'graphic',
+81 silly install resolved        'graphics',
+81 silly install resolved        'pixman',
+81 silly install resolved        'cairo',
+81 silly install resolved        'image',
+81 silly install resolved        'images',
+81 silly install resolved        'pdf' ],
+81 silly install resolved     homepage: 'https://github.com/Automattic/node-canvas',
+81 silly install resolved     repository:
+81 silly install resolved      { type: 'git',
+81 silly install resolved        url: 'git://github.com/Automattic/node-canvas.git' },
+81 silly install resolved     scripts:
+81 silly install resolved      { prebenchmark: 'node-gyp build',
+81 silly install resolved        benchmark: 'node benchmarks/run.js',
+81 silly install resolved        pretest: 'node-gyp build',
+81 silly install resolved        test: 'standard examples/*.js && mocha test/*.test.js',
+81 silly install resolved        'pretest-server': 'node-gyp build',
+81 silly install resolved        'test-server': 'node test/server.js',
+81 silly install resolved        install: 'node-gyp rebuild' },
+81 silly install resolved     dependencies: { nan: '^2.4.0' },
+81 silly install resolved     devDependencies:
+81 silly install resolved      { 'body-parser': '^1.13.3',
+81 silly install resolved        express: '^4.13.2',
+81 silly install resolved        mocha: '^2.5.3',
+81 silly install resolved        pug: '^2.0.0-beta3',
+81 silly install resolved        standard: '^10.0.3' },
+81 silly install resolved     engines: { node: '>=0.8.0' },
+81 silly install resolved     main: './lib/canvas.js',
+81 silly install resolved     license: 'MIT',
+81 silly install resolved     gypfile: true,
+81 silly install resolved     gitHead: '265d084311b8c7a11b0d89967bd904f2899358d0',
+81 silly install resolved     bugs: { url: 'https://github.com/Automattic/node-canvas/issues' },
+81 silly install resolved     _id: 'canvas@1.6.10',
+81 silly install resolved     _npmVersion: '5.6.0',
+81 silly install resolved     _nodeVersion: '9.8.0',
+81 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+81 silly install resolved     dist:
+81 silly install resolved      { integrity: 'sha512-wd97ZrUfLYWjQ0qcJGiM44anXB+RviRu3DETpPIS4Sf7JzhP9PawwHdZOlx8sufcsRSeWuQe93qaCtwvK1jWXQ==',
+81 silly install resolved        shasum: 'aa938354642e7d61479ae5a76373b3233d7bbac8',
+81 silly install resolved        tarball: 'https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz',
+81 silly install resolved        fileCount: 39,
+81 silly install resolved        unpackedSize: 241102 },
+81 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+81 silly install resolved     directories: {},
+81 silly install resolved     _npmOperationalInternal:
+81 silly install resolved      { host: 's3://npm-registry-packages',
+81 silly install resolved        tmp: 'tmp/canvas_1.6.10_1521748494627_0.3495151686498059' },
+81 silly install resolved     _shasum: 'aa938354642e7d61479ae5a76373b3233d7bbac8',
+81 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.6.10.tgz',
+81 silly install resolved     _from: 'canvas@*' } ]
+82 info install canvas@1.6.10 into /Users/marysun/csci-e39 weekend/csci-e39
+83 info installOne canvas@1.6.10
+84 verbose installOne of canvas to /Users/marysun/csci-e39 weekend/csci-e39 not in flight; installing
+85 verbose lock using /Users/marysun/.npm/_locks/canvas-bea4b518c2d22ed8.lock for /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+86 silly install write writing canvas 1.6.10 to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+87 verbose unbuild node_modules/canvas
+88 silly gentlyRm /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas is being purged from base /Users/marysun/csci-e39 weekend/csci-e39
+89 verbose gentlyRm don't care about contents; nuking /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+90 verbose tar unpack /Users/marysun/.npm/canvas/1.6.10/package.tgz
+91 verbose tar unpacking to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+92 silly gentlyRm /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas is being purged
+93 verbose gentlyRm don't care about contents; nuking /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+94 silly gunzTarPerm modes [ '755', '644' ]
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm extractEntry .travis.yml
+97 silly gunzTarPerm extractEntry binding.gyp
+98 silly gunzTarPerm extractEntry History.md
+99 silly gunzTarPerm extractEntry index.js
+100 silly gunzTarPerm extractEntry Readme.md
+101 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+102 silly gunzTarPerm extractEntry .vscode/c_cpp_properties.json
+103 silly gunzTarPerm extractEntry .vscode/settings.json
+104 silly gunzTarPerm extractEntry lib/bindings.js
+105 silly gunzTarPerm extractEntry lib/canvas.js
+106 silly gunzTarPerm extractEntry lib/context2d.js
+107 silly gunzTarPerm extractEntry lib/image.js
+108 silly gunzTarPerm extractEntry lib/jpegstream.js
+109 silly gunzTarPerm extractEntry lib/parse-font.js
+110 silly gunzTarPerm extractEntry lib/pdfstream.js
+111 silly gunzTarPerm extractEntry lib/pngstream.js
+112 silly gunzTarPerm extractEntry src/Canvas.cc
+113 silly gunzTarPerm extractEntry src/Canvas.h
+114 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+115 silly gunzTarPerm extractEntry src/CanvasGradient.h
+116 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+117 silly gunzTarPerm extractEntry src/CanvasPattern.h
+118 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+119 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+120 silly gunzTarPerm extractEntry src/closure.h
+121 silly gunzTarPerm extractEntry src/color.cc
+122 silly gunzTarPerm extractEntry src/color.h
+123 silly gunzTarPerm extractEntry src/FontFace.cc
+124 silly gunzTarPerm extractEntry src/FontFace.h
+125 silly gunzTarPerm extractEntry src/Image.cc
+126 silly gunzTarPerm extractEntry src/Image.h
+127 silly gunzTarPerm extractEntry src/ImageData.cc
+128 silly gunzTarPerm extractEntry src/ImageData.h
+129 silly gunzTarPerm extractEntry src/init.cc
+130 silly gunzTarPerm extractEntry src/JPEGStream.h
+131 silly gunzTarPerm extractEntry src/PNG.h
+132 silly gunzTarPerm extractEntry src/Point.h
+133 silly gunzTarPerm extractEntry util/has_lib.sh
+134 verbose write writing to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/package.json
+135 info preinstall canvas@1.6.10
+136 verbose readDependencies loading dependencies from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/package.json
+137 silly prepareForInstallMany adding nan@^2.4.0 from canvas dependencies
+138 verbose readDependencies loading dependencies from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/package.json
+139 silly cache add args [ 'nan@^2.4.0', null ]
+140 verbose cache add spec nan@^2.4.0
+141 silly cache add parsed spec { raw: 'nan@^2.4.0',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'nan',
+141 silly cache add   rawSpec: '^2.4.0',
+141 silly cache add   spec: '>=2.4.0 <3.0.0',
+141 silly cache add   type: 'range' }
+142 silly addNamed nan@>=2.4.0 <3.0.0
+143 verbose addNamed ">=2.4.0 <3.0.0" is a valid semver range for nan
+144 silly addNameRange { name: 'nan', range: '>=2.4.0 <3.0.0', hasData: false }
+145 silly mapToRegistry name nan
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/nan
+149 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+150 verbose request uri https://registry.npmjs.org/nan
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 01:43:25
+153 http request GET https://registry.npmjs.org/nan
+154 http 200 https://registry.npmjs.org/nan
+155 silly get cb [ 200,
+155 silly get   { 'content-type': 'application/json; charset=UTF-8',
+155 silly get     server: 'UploadServer',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     'last-modified': 'Fri, 16 Mar 2018 16:11:51 GMT',
+155 silly get     etag: '"5aabecc7-229f2"',
+155 silly get     'x-npm-region': 'US-East',
+155 silly get     'content-encoding': 'gzip',
+155 silly get     'content-length': '16937',
+155 silly get     'accept-ranges': 'bytes',
+155 silly get     date: 'Sun, 22 Apr 2018 05:43:25 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     age: '20',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-bos8226-BOS',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '2',
+155 silly get     'x-timer': 'S1524375806.709006,VS0,VE0',
+155 silly get     vary: 'Accept-Encoding, Accept' } ]
+156 verbose get saving nan to /Users/marysun/.npm/registry.npmjs.org/nan/.cache.json
+157 silly addNameRange number 2 { name: 'nan', range: '>=2.4.0 <3.0.0', hasData: true }
+158 silly addNameRange versions [ 'nan',
+158 silly addNameRange   [ '0.3.0-wip',
+158 silly addNameRange     '0.3.0-wip2',
+158 silly addNameRange     '0.3.0',
+158 silly addNameRange     '0.3.1',
+158 silly addNameRange     '0.3.2',
+158 silly addNameRange     '0.4.0',
+158 silly addNameRange     '0.4.1',
+158 silly addNameRange     '0.4.2',
+158 silly addNameRange     '0.4.3',
+158 silly addNameRange     '0.4.4',
+158 silly addNameRange     '0.5.0',
+158 silly addNameRange     '0.5.1',
+158 silly addNameRange     '0.5.2',
+158 silly addNameRange     '0.6.0',
+158 silly addNameRange     '0.7.0',
+158 silly addNameRange     '0.7.1',
+158 silly addNameRange     '0.8.0',
+158 silly addNameRange     '1.0.0',
+158 silly addNameRange     '1.1.0',
+158 silly addNameRange     '1.1.1',
+158 silly addNameRange     '1.1.2',
+158 silly addNameRange     '1.2.0',
+158 silly addNameRange     '1.3.0',
+158 silly addNameRange     '1.4.0',
+158 silly addNameRange     '1.4.1',
+158 silly addNameRange     '1.5.0',
+158 silly addNameRange     '1.4.2',
+158 silly addNameRange     '1.4.3',
+158 silly addNameRange     '1.5.1',
+158 silly addNameRange     '1.5.2',
+158 silly addNameRange     '1.6.0',
+158 silly addNameRange     '1.5.3',
+158 silly addNameRange     '1.6.1',
+158 silly addNameRange     '1.6.2',
+158 silly addNameRange     '1.7.0',
+158 silly addNameRange     '1.8.0',
+158 silly addNameRange     '1.8.1',
+158 silly addNameRange     '1.8.2',
+158 silly addNameRange     '1.8.3',
+158 silly addNameRange     '1.8.4',
+158 silly addNameRange     '1.9.0',
+158 silly addNameRange     '2.0.0',
+158 silly addNameRange     '2.0.1',
+158 silly addNameRange     '2.0.2',
+158 silly addNameRange     '2.0.3',
+158 silly addNameRange     '2.0.4',
+158 silly addNameRange     '2.0.5',
+158 silly addNameRange     '2.0.6',
+158 silly addNameRange     '2.0.7',
+158 silly addNameRange     '2.0.8',
+158 silly addNameRange     '2.0.9',
+158 silly addNameRange     '2.1.0',
+158 silly addNameRange     '2.2.0',
+158 silly addNameRange     '2.2.1',
+158 silly addNameRange     '2.3.0',
+158 silly addNameRange     '2.3.1',
+158 silly addNameRange     '2.3.2',
+158 silly addNameRange     '2.3.3',
+158 silly addNameRange     '2.3.4',
+158 silly addNameRange     '2.3.5',
+158 silly addNameRange     '2.4.0',
+158 silly addNameRange     '2.5.0',
+158 silly addNameRange     '2.5.1',
+158 silly addNameRange     '2.6.0',
+158 silly addNameRange     '2.6.1',
+158 silly addNameRange     '2.6.2',
+158 silly addNameRange     '2.7.0',
+158 silly addNameRange     '2.8.0',
+158 silly addNameRange     '2.9.1',
+158 silly addNameRange     '2.9.2',
+158 silly addNameRange     '2.10.0' ] ]
+159 silly addNamed nan@2.10.0
+160 verbose addNamed "2.10.0" is a plain semver version for nan
+161 silly mapToRegistry name nan
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/nan
+165 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.10.0.tgz not in flight; adding
+166 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.10.0.tgz',
+166 verbose addRemoteTarball   '96d0cd610ebd58d4b4de9cc0c6828cda99c7548f' ]
+167 info retry fetch attempt 1 at 01:43:25
+168 info attempt registry request try #1 at 01:43:25
+169 http fetch GET https://registry.npmjs.org/nan/-/nan-2.10.0.tgz
+170 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.10.0.tgz
+171 silly fetchAndShaCheck shasum 96d0cd610ebd58d4b4de9cc0c6828cda99c7548f
+172 verbose addTmpTarball /var/folders/ny/cmsdksp11_b91q5wq9gsdwdc0000gn/T/npm-26633-0ace1f1f/registry.npmjs.org/nan/-/nan-2.10.0.tgz not in flight; adding
+173 verbose addTmpTarball already have metadata; skipping unpack for nan@2.10.0
+174 silly cache afterAdd nan@2.10.0
+175 verbose afterAdd /Users/marysun/.npm/nan/2.10.0/package/package.json not in flight; writing
+176 verbose afterAdd /Users/marysun/.npm/nan/2.10.0/package/package.json written
+177 silly install resolved [ { name: 'nan',
+177 silly install resolved     version: '2.10.0',
+177 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility',
+177 silly install resolved     main: 'include_dirs.js',
+177 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+177 silly install resolved     scripts:
+177 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+177 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2015 --directory test',
+177 silly install resolved        docs: 'doc/.build.sh' },
+177 silly install resolved     contributors:
+177 silly install resolved      [ [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object],
+177 silly install resolved        [Object] ],
+177 silly install resolved     devDependencies:
+177 silly install resolved      { bindings: '~1.2.1',
+177 silly install resolved        commander: '^2.8.1',
+177 silly install resolved        glob: '^5.0.14',
+177 silly install resolved        request: '=2.81.0',
+177 silly install resolved        'node-gyp': '~3.6.2',
+177 silly install resolved        'readable-stream': '^2.1.4',
+177 silly install resolved        tap: '~0.7.1',
+177 silly install resolved        xtend: '~4.0.0' },
+177 silly install resolved     license: 'MIT',
+177 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+177 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+177 silly install resolved     _id: 'nan@2.10.0',
+177 silly install resolved     _npmVersion: '5.6.0',
+177 silly install resolved     _nodeVersion: '9.6.0',
+177 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+177 silly install resolved     dist:
+177 silly install resolved      { integrity: 'sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==',
+177 silly install resolved        shasum: '96d0cd610ebd58d4b4de9cc0c6828cda99c7548f',
+177 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.10.0.tgz',
+177 silly install resolved        fileCount: 46,
+177 silly install resolved        unpackedSize: 409953 },
+177 silly install resolved     maintainers: [ [Object], [Object] ],
+177 silly install resolved     directories: {},
+177 silly install resolved     _npmOperationalInternal:
+177 silly install resolved      { host: 's3://npm-registry-packages',
+177 silly install resolved        tmp: 'tmp/nan_2.10.0_1521216708687_0.31611161513830033' },
+177 silly install resolved     _shasum: '96d0cd610ebd58d4b4de9cc0c6828cda99c7548f',
+177 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.10.0.tgz',
+177 silly install resolved     _from: 'nan@>=2.4.0 <3.0.0' } ]
+178 info install nan@2.10.0 into /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+179 info installOne nan@2.10.0
+180 verbose installOne of nan to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas not in flight; installing
+181 verbose lock using /Users/marysun/.npm/_locks/nan-f52fce0c7c2d2d89.lock for /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+182 silly install write writing nan 2.10.0 to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+183 verbose unbuild node_modules/canvas/node_modules/nan
+184 silly gentlyRm /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan is being purged from base /Users/marysun/csci-e39 weekend/csci-e39
+185 verbose gentlyRm don't care about contents; nuking /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+186 verbose tar unpack /Users/marysun/.npm/nan/2.10.0/package.tgz
+187 verbose tar unpacking to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+188 silly gentlyRm /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan is being purged
+189 verbose gentlyRm don't care about contents; nuking /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+190 silly gunzTarPerm modes [ '755', '644' ]
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+193 silly gunzTarPerm extractEntry CHANGELOG.md
+194 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+195 silly gunzTarPerm extractEntry include_dirs.js
+196 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+197 silly gunzTarPerm extractEntry LICENSE.md
+198 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+199 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+200 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+201 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+202 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+203 silly gunzTarPerm extractEntry nan_callbacks.h
+204 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+205 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+206 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+207 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+208 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+209 silly gunzTarPerm extractEntry nan_converters.h
+210 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+211 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+212 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 420 ]
+213 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+214 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+215 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+216 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+217 silly gunzTarPerm extractEntry nan_json.h
+218 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+219 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+220 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+221 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+222 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+223 silly gunzTarPerm extractEntry nan_new.h
+224 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+225 silly gunzTarPerm extractEntry nan_object_wrap.h
+226 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+227 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+228 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+229 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+230 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+231 silly gunzTarPerm extractEntry nan_private.h
+232 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+233 silly gunzTarPerm extractEntry nan_string_bytes.h
+234 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+235 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+236 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+237 silly gunzTarPerm extractEntry nan_weak.h
+238 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+239 silly gunzTarPerm extractEntry nan.h
+240 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+241 silly gunzTarPerm extractEntry README.md
+242 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+243 silly gunzTarPerm extractEntry doc/asyncworker.md
+244 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+245 silly gunzTarPerm extractEntry doc/buffers.md
+246 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+247 silly gunzTarPerm extractEntry doc/callback.md
+248 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+249 silly gunzTarPerm extractEntry doc/converters.md
+250 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+251 silly gunzTarPerm extractEntry doc/errors.md
+252 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+253 silly gunzTarPerm extractEntry doc/json.md
+254 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+255 silly gunzTarPerm extractEntry doc/maybe_types.md
+256 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+257 silly gunzTarPerm extractEntry doc/methods.md
+258 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+259 silly gunzTarPerm extractEntry doc/new.md
+260 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+261 silly gunzTarPerm extractEntry doc/node_misc.md
+262 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+263 silly gunzTarPerm extractEntry doc/object_wrappers.md
+264 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+265 silly gunzTarPerm extractEntry doc/persistent.md
+266 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+267 silly gunzTarPerm extractEntry doc/scopes.md
+268 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+269 silly gunzTarPerm extractEntry doc/script.md
+270 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+271 silly gunzTarPerm extractEntry doc/string_bytes.md
+272 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+273 silly gunzTarPerm extractEntry doc/v8_internals.md
+274 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+275 silly gunzTarPerm extractEntry doc/v8_misc.md
+276 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+277 silly gunzTarPerm extractEntry tools/1to2.js
+278 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+279 silly gunzTarPerm extractEntry tools/package.json
+280 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+281 silly gunzTarPerm extractEntry tools/README.md
+282 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+283 verbose write writing to /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan/package.json
+284 info preinstall nan@2.10.0
+285 verbose readDependencies loading dependencies from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan/package.json
+286 verbose readDependencies loading dependencies from /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan/package.json
+287 silly install resolved []
+288 verbose about to build /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+289 info build /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+290 info linkStuff nan@2.10.0
+291 silly linkStuff nan@2.10.0 has /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules as its parent node_modules
+292 verbose linkBins nan@2.10.0
+293 verbose linkMans nan@2.10.0
+294 verbose rebuildBundles nan@2.10.0
+295 info install nan@2.10.0
+296 info postinstall nan@2.10.0
+297 verbose unlock done using /Users/marysun/.npm/_locks/nan-f52fce0c7c2d2d89.lock for /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas/node_modules/nan
+298 verbose about to build /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+299 info build /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+300 info linkStuff canvas@1.6.10
+301 silly linkStuff canvas@1.6.10 has /Users/marysun/csci-e39 weekend/csci-e39/node_modules as its parent node_modules
+302 verbose linkBins canvas@1.6.10
+303 verbose linkMans canvas@1.6.10
+304 verbose rebuildBundles canvas@1.6.10
+305 verbose rebuildBundles [ 'nan' ]
+306 info install canvas@1.6.10
+307 verbose unsafe-perm in lifecycle true
+308 info canvas@1.6.10 Failed to exec install script
+309 verbose unlock done using /Users/marysun/.npm/_locks/canvas-bea4b518c2d22ed8.lock for /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+310 verbose stack Error: canvas@1.6.10 install: `node-gyp rebuild`
+310 verbose stack Exit status 1
+310 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+310 verbose stack     at EventEmitter.emit (events.js:110:17)
+310 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+310 verbose stack     at ChildProcess.emit (events.js:110:17)
+310 verbose stack     at maybeClose (child_process.js:1015:16)
+310 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+311 verbose pkgid canvas@1.6.10
+312 verbose cwd /Users/marysun/csci-e39 weekend/csci-e39
+313 error Darwin 17.5.0
+314 error argv "node" "/usr/local/bin/npm" "install" "canvas"
+315 error node v0.12.7
+316 error npm  v2.12.1
+317 error code ELIFECYCLE
+318 error canvas@1.6.10 install: `node-gyp rebuild`
+318 error Exit status 1
+319 error Failed at the canvas@1.6.10 install script 'node-gyp rebuild'.
+319 error This is most likely a problem with the canvas package,
+319 error not with npm itself.
+319 error Tell the author that this fails on your system:
+319 error     node-gyp rebuild
+319 error You can get their info via:
+319 error     npm owner ls canvas
+319 error There is likely additional logging output above.
+320 verbose exit [ 1, true ]
+321 verbose unbuild node_modules/canvas
+322 info preuninstall canvas@1.6.10
+323 info uninstall canvas@1.6.10
+324 verbose unbuild rmStuff canvas@1.6.10 from /Users/marysun/csci-e39 weekend/csci-e39/node_modules
+325 info postuninstall canvas@1.6.10
+326 silly gentlyRm /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas is being purged from base /Users/marysun/csci-e39 weekend/csci-e39
+327 verbose gentlyRm don't care about contents; nuking /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+328 silly vacuum-fs purging /Users/marysun/csci-e39 weekend/csci-e39/node_modules/canvas
+329 silly vacuum-fs quitting because other entries in /Users/marysun/csci-e39 weekend/csci-e39/node_modules

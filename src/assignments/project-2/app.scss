@@ -1,0 +1,30 @@
+@import '../design-patterns/pattern-library';
+@import '../design-patterns/normalize';
+
+@import "./components/global-variables/global-variables";
+@import "./components/app-header/app-header";
+@import "./components/chatroom/chatroom";
+@import "./components/chatroom-status/chatroom-status";
+@import "./components/member/member";
+@import "./components/member-list/member-list";
+@import "./components/message/message";
+@import "./components/user-input/user-input";
+
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+.global-wrapper {
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+	display: grid;
+
+	/*display:grid;
+	grid-template-columns: 20% 27% 27% 27%;
+	grid-template-rows: auto;
+	grid-template-areas:  	"app-header			app-header			app-header			app-header"
+							"member-list		chatroom			chatroom 			chatroom"
+						 	"ad-list			chatroom			chatroom			chatroom"
+						 	"ad-list	 		chatroom-status 	chatroom-status 	chatroom-status"
+						 	"user-input			user-input			user-input			user-input";*/
+}
