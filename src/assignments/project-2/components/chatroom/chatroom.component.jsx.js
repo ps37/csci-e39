@@ -14,7 +14,8 @@ class ChatRoomComponent extends React.Component {
         const {messages}=this.props;
         return  <div>
                     <h2>Messages</h2>
-                    <ul role="status" aria-live="polite" aria-relevant="additions">
+                    <ul role="status" aria-live="polite" aria-relevant="additions"
+                        className="message-list">
                         {messages.map((message) =>
                             <MessageComponent key={message.id} message={message}/>
                         )}
