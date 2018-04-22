@@ -1,0 +1,22 @@
+@import "../global-variables/global-variables";
+
+.message {
+  padding: 5px;
+  border-radius: 10px;
+
+  &:nth-child(even)
+  {
+    background-color: $header-background;
+  }
+  &:hover {
+    background-color: #eaeaea;
+  }
+}
+.message-date-string {
+  font-size: small;
+  color: #5b5b5b;
+  padding-left: 5px;
+}
+.message-list {
+
+}

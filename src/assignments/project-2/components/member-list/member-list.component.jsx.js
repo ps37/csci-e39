@@ -12,7 +12,7 @@ class MemberList extends React.Component {
                     <Member key={id} name={name} />
                 )
             }
-        </ul >
+        </ul>
 
     }
 }

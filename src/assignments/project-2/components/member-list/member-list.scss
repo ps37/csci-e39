@@ -1,0 +1,12 @@
+@import "../global-variables/global-variables";
+
+.member-list {
+	grid-area: member-list;
+
+	background: $roster-background;
+	color: white;
+}
+
+.ad-list {
+	grid-area: ad-list;
+}
