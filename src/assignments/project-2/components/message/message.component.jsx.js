@@ -57,14 +57,14 @@ class MessageComponent extends React.Component {
         const { message } = this.props;
 
         return (
-            <div key={message.id}>
+            <div key={message.id} className="message">
                  <span>
                         {message.student.name}
                         <span className="message-date-string">
                             {this.formatDate(message.createdAt)}
                     </span>
               </span>
-                <p
+                <p className="message-text"
                     dangerouslySetInnerHTML={{
                         __html: this.renderMessage(message.text)
                     }}
