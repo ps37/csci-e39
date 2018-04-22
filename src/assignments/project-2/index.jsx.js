@@ -48,7 +48,7 @@ class Chat extends React.Component {
 			case 3:
 				return `${typing[0].name}, ${typing[1].name}, and ${
 					typing[2].name
-				} are typing...`;
+					} are typing...`;
 			// len > 3
 			default:
 				return `${typing.length} members are typing...`;
@@ -61,7 +61,7 @@ class Chat extends React.Component {
 
 		return <div className="global-wrapper">
 
-			<AppHeader />
+			<AppHeader pageTitle="welcome to {champ chat}" />
 			<section className="chat-area">
 				<div className="member-list">
 					<h2>Members</h2>
@@ -71,8 +71,8 @@ class Chat extends React.Component {
 
 
 				<div className="chatroom">
-						<ChatRoomComponent messages=
-				{chat.messages}/>
+					<ChatRoomComponent messages=
+						{chat.messages} />
 				</div>
 
 				<div className="chatroom-status-container">
@@ -85,11 +85,11 @@ class Chat extends React.Component {
 			<div className="user-input">
 				<div className="button-container">
 					<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
-						<button disabled={currentText === ``} onClick={this.onSend}>Send
+					<button disabled={currentText === ``} onClick={this.onSend}>Send
 						{/*<div class="bg"></div>
 						<img src="https://i.cloudup.com/2ZAX3hVsBE-3000x3000.png" id="bg" width="32px" height="32px" style="opacity:0;"/>
 						<div class="around around-boarder" onclick="ani(); anitwo();"></div> */}
-						</button>
+					</button>
 				</div>
 			</div>
 		</div>

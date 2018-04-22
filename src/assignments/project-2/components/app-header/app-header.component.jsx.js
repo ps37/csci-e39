@@ -5,7 +5,7 @@ import autobind from 'class-autobind'
 class AppHeader extends React.Component {
 
     render() {
-        return <header className="app-header"><h1>welcome to &#123; champ chat &#125;</h1></header>
+        return <header className="app-header"><h1>{this.props.pageTitle}</h1></header>
     }
 }
 
