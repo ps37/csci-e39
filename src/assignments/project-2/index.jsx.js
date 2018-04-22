@@ -58,19 +58,40 @@ class Chat extends React.Component {
 		const { classroom, chat, actions } = this.props
 		const { currentText } = this.state
 
-		return <div>
+		return <div className="global-wrapper">
 
 			<AppHeader />
-			<h2>Members</h2>
-			<MemberList classroom={classroom} />
+			<section className="chat-area">
+				<div className="member-list">
+					<h2>Members</h2>
+					<MemberList classroom={classroom} />
+					<div className="ad-list">CHAT NOW 1</div>
+					<div className="ad-list>">CHAT NOW 2</div>
+				</div>
 
 
-			<ChatRoomComponent messages=
+				<div className="chatroom">
+						<ChatRoomComponent messages=
 				{chat.messages}/>
+				</div>
 
-			<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
-			<button disabled={currentText === ``} onClick={this.onSend}>Send</button>
-			<ChatroomStatus statusMessage={this.getTypingMessage()} />
+				<div className="chatroom-status-container">
+					<div className="chatroom-status">
+						<ChatroomStatus statusMessage={this.getTypingMessage()} />
+					</div>
+				</div>
+			</section>
+
+			<div className="user-input">
+				<div className="button-container">
+					<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
+						<button disabled={currentText === ``} onClick={this.onSend}>Send
+						{/*<div class="bg"></div>
+						<img src="https://i.cloudup.com/2ZAX3hVsBE-3000x3000.png" id="bg" width="32px" height="32px" style="opacity:0;"/>
+						<div class="around around-boarder" onclick="ani(); anitwo();"></div> */}
+						</button>
+				</div>
+			</div>
 		</div>
 	}
 }
