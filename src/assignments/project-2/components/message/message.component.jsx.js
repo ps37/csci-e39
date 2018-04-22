@@ -29,12 +29,12 @@ class MessageComponent extends React.Component {
         const {message}=this.props;
 
         return  <div key={message.id}>
-                    <label>
+                    <span>
                         {message.student.name}
                         <span className="message-date-string">
                             {this.formatDate(message.createdAt)}
                         </span>
-                    </label>
+                    </span>
                     <p>{message.text}</p>
                 </div>
     }
