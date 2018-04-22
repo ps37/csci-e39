@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import autobind from 'class-autobind'
+import React from "react";
+import PropTypes from "prop-types";
+import autobind from "class-autobind";
 
 import ChatroomStatus from "./components/chatroom-status/chatroom-status.component.jsx.js";
-import MemberList from './components/member-list/member-list.component.jsx'
-import AppHeader from './components/app-header/app-header.component.jsx';
+import MemberList from "./components/member-list/member-list.component.jsx";
+import AppHeader from "./components/app-header/app-header.component.jsx";
 
 class Chat extends React.Component {
 	constructor() {
@@ -13,12 +13,12 @@ class Chat extends React.Component {
 		this.state = {
 			currentText: ``
 		};
-	}	
+	}
 
 	onType(e) {
-		const { chat } = this.props.actions
-		const { currentText: prevText } = this.state
-		const currentText = e.target.value
+		const { chat } = this.props.actions;
+		const { currentText: prevText } = this.state;
+		const currentText = e.target.value;
 		if (!currentText.length) chat.stopTyping();
 		if (currentText.length === 1 && !prevText.length) chat.startTyping();
 		this.setState({ currentText });
@@ -54,30 +54,38 @@ class Chat extends React.Component {
 	}
 
 	render() {
-		const { classroom, chat, actions } = this.props
-		const { currentText } = this.state
+		const { classroom, chat, actions } = this.props;
+		const { currentText } = this.state;
 
-		return <div>
+		return (
+			<div>
+				<AppHeader />
+				<h2>Members</h2>
+				<MemberList classroom={classroom} />
 
-			<AppHeader />
-			<h2>Members</h2>
-			<MemberList classroom={classroom} />
+				<h2>Messages</h2>
+				<ul>
+					{chat.messages.map(({ id, student, text, createdAt }) => (
+						<li key={id}>
+							<label>
+								{student.name} at {createdAt.toISOString()}
+							</label>
+							<p>{text}</p>
+						</li>
+					))}
+				</ul>
 
-
-			<h2>Messages</h2>
-			<ul>
-				{chat.messages.map(({ id, student, text, createdAt }) =>
-					<li key={id}>
-						<label>{student.name} at {createdAt.toISOString()}</label>
-						<p>{text}</p>
-					</li>
-				)}
-			</ul>
-
-			<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
-			<button disabled={currentText === ``} onClick={this.onSend}>Send</button>
-			<ChatroomStatus statusMessage={this.getTypingMessage()} />
-		</div>
+				<input
+					value={currentText}
+					onChange={this.onType}
+					onKeyUp={this.onSend}
+				/>
+				<button disabled={currentText === ``} onClick={this.onSend}>
+					Send
+				</button>
+				<ChatroomStatus statusMessage={this.getTypingMessage()} />
+			</div>
+		);
 	}
 }
 
