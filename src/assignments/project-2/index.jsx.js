@@ -1,6 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from './support/prop-types'
 import autobind from 'class-autobind'
+import ChatRoomComponent from './components/chatroom/chatroom.component.jsx.js'
 
 import ChatroomStatus from "./components/chatroom-status/chatroom-status.component.jsx.js";
 import MemberList from './components/member-list/member-list.component.jsx'
@@ -13,7 +14,7 @@ class Chat extends React.Component {
 		this.state = {
 			currentText: ``
 		};
-	}	
+	}
 
 	onType(e) {
 		const { chat } = this.props.actions
@@ -64,15 +65,8 @@ class Chat extends React.Component {
 			<MemberList classroom={classroom} />
 
 
-			<h2>Messages</h2>
-			<ul>
-				{chat.messages.map(({ id, student, text, createdAt }) =>
-					<li key={id}>
-						<label>{student.name} at {createdAt.toISOString()}</label>
-						<p>{text}</p>
-					</li>
-				)}
-			</ul>
+			<ChatRoomComponent messages=
+				{chat.messages}/>
 
 			<input value={currentText} onChange={this.onType} onKeyUp={this.onSend} />
 			<button disabled={currentText === ``} onClick={this.onSend}>Send</button>
@@ -81,25 +75,13 @@ class Chat extends React.Component {
 	}
 }
 
-const studentPropType = PropTypes.shape({
-	id: PropTypes.number.isRequired,
-	name: PropTypes.string.isRequired
-});
-
 Chat.propTypes = {
 	classroom: PropTypes.shape({
-		students: PropTypes.arrayOf(studentPropType).isRequired
+		students: PropTypes.arrayOf(PropTypes.student).isRequired
 	}).isRequired,
 	chat: PropTypes.shape({
-		typing: PropTypes.arrayOf(studentPropType).isRequired,
-		messages: PropTypes.arrayOf(
-			PropTypes.shape({
-				id: PropTypes.number.isRequired,
-				text: PropTypes.string.isRequired,
-				student: studentPropType,
-				createdAt: PropTypes.instanceOf(Date).isRequired
-			})
-		).isRequired,
+		typing: PropTypes.arrayOf(PropTypes.student).isRequired,
+		messages: PropTypes.arrayOf(PropTypes.message).isRequired,
 		send: PropTypes.shape({
 			status: PropTypes.oneOf([`init`, `pending`, `success`, `failure`])
 				.isRequired,
