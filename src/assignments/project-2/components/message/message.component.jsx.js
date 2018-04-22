@@ -22,6 +22,9 @@ class MessageComponent extends React.Component {
         );
     }
     renderMessage(msg) {
+        if (msg.startsWith("https")) {
+            return "<a href=''>" + msg + "</a>";
+        }
         let parts = msg.split(" ");
         const emojiRepo = {
             ":D": "😎",
