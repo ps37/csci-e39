@@ -1,0 +1,12 @@
+@import "../global-variables/global-variables";
+
+.chatroom {
+	grid-area: chatroom;
+}
+
+
+.chat-area {
+	display: grid;
+	grid-template-areas: "member-list chatroom"
+						 "ad-list	  chatroom-status";
+}

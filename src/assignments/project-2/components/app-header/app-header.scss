@@ -1,0 +1,14 @@
+@import "../global-variables/global-variables";
+
+.app-header {
+	display: block;
+    width: 100%; /* Full width */
+
+
+	background: $header-background;
+	color: $header-text-color;
+	font-family: $title-font-global;
+	color: $header-text-color;
+	font-style: bold;
+	font-size: 2em;
+}
