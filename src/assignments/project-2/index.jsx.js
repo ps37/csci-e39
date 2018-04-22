@@ -77,7 +77,12 @@ class Chat extends React.Component {
 
 Chat.propTypes = {
 	classroom: PropTypes.shape({
+<<<<<<< HEAD
 		students: PropTypes.arrayOf(PropTypes.student).isRequired
+=======
+		self: studentPropType,
+		students: PropTypes.arrayOf(studentPropType).isRequired,
+>>>>>>> master
 	}).isRequired,
 	chat: PropTypes.shape({
 		typing: PropTypes.arrayOf(PropTypes.student).isRequired,
