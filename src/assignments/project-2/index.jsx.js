@@ -6,6 +6,7 @@ import ChatRoomComponent from './components/chatroom/chatroom.component.jsx.js'
 import ChatroomStatus from "./components/chatroom-status/chatroom-status.component.jsx.js";
 import MemberList from './components/member-list/member-list.component.jsx'
 import AppHeader from './components/app-header/app-header.component.jsx';
+import AdList from './components/ad-list/ad-list.component.jsx';
 
 class Chat extends React.Component {
 	constructor() {
@@ -92,9 +93,31 @@ class Chat extends React.Component {
 						</button>
 				</div>
 			</div>
+			<aside>
+				<AdList ads={FAKEADS} />
+			</aside>
 		</div>
 	}
 }
+
+// array of fake ads for AdList component to consume
+const FAKEADS = [
+	{
+		id: "1",
+		buttonCopy: "Click me",
+		buttonUrl: "http://localhost:3000",
+		imageUrl: "https://avatars0.githubusercontent.com/u/6720549?s=200&v=4",
+		imageAltText: "Natalya Shelburne, spokesperson for Champ Chat",
+	},
+
+	{
+		id: "2",
+		buttonCopy: "Also click me",
+		buttonUrl: "http://localhost:3000",
+		imageUrl: "https://avatars0.githubusercontent.com/u/1202267?s=200&v=4",
+		imageAltText: "Some guy named Tim",
+	},
+];
 
 Chat.propTypes = {
 	classroom: PropTypes.shape({
