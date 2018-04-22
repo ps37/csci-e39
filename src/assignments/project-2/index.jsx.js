@@ -66,8 +66,7 @@ class Chat extends React.Component {
 				<div className="member-list">
 					<h2>Members</h2>
 					<MemberList classroom={classroom} />
-					<div className="ad-list">CHAT NOW 1</div>
-					<div className="ad-list>">CHAT NOW 2</div>
+					<AdList ads={FAKEADS} />
 				</div>
 
 
@@ -93,9 +92,6 @@ class Chat extends React.Component {
 						</button>
 				</div>
 			</div>
-			<aside>
-				<AdList ads={FAKEADS} />
-			</aside>
 		</div>
 	}
 }
